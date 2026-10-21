@@ -1,0 +1,63 @@
+# Python
+backend/.venv/
+backend/.pytest_cache/
+backend/.coverage
+backend/**/__pycache__/
+backend/*.egg-info/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+e2e/node_modules/
+e2e/artifacts/
+e2e/.runs/
+e2e/test-results/
+e2e/playwright-report/
+.pnpm-store/
+.pytest-tmp/
+.worktrees/
+.e2e-tmp/
+.e2e-runs/
+.acceptance-runs/
+
+# Local application data and private samples
+data/
+samples/private/
+/questions/
+
+# Editors and OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Private publication workspace and local assistant state
+/.publish/
+/.pt*/
+/.superpowers/
+/.agents/
+
+# Local credentials, databases, logs and original requirements
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.log
+/开发需求.docx
+
+# Internal development records retained only in the original local checkout
+/docs/superpowers/
+/docs/HANDOFF*
+/docs/BUG_TRACKER.md
+/docs/PROJECT_STATUS.md
+/docs/PHASE6_ACCEPTANCE.md

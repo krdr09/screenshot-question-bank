@@ -1,0 +1,17 @@
+{
+  "name": "question-practice-e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:support": "node node_modules/@playwright/test/cli.js test --config=playwright.support.config.ts",
+    "playwright:version": "node node_modules/@playwright/test/cli.js --version",
+    "test:quick": "node support/run-suite.mjs quick",
+    "test:full": "node support/run-suite.mjs full",
+    "test:scenario": "node support/run-suite.mjs scenario"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0",
+    "typescript": "5.8.3"
+  },
+  "packageManager": "pnpm@11.7.0"
+}
